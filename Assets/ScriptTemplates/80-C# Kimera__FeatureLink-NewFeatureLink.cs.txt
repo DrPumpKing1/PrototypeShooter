@@ -1,0 +1,20 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+namespace Features
+{
+    public class #SCRIPTNAME# : Link //Other Link channels
+    {
+
+        //States
+        //Properties
+
+        public #SCRIPTNAME#(Controller actor, Controller reactor, Settings settings) : base(actor, reactor, settings)
+		{
+			//Link Features
+		}
+    }
+}
+#ROOTNAMESPACEEND#
